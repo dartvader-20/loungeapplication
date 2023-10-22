@@ -20,7 +20,8 @@ const MainContainer = styled('div')({
     flexDirection: 'column',
     alignItems: 'flex-start',
     justifyContent: 'center',
-    padding: '15px'
+    padding: '15px',
+    background: 'GrayText'
 });
 const GenerateButton = styled('button')({
     marginTop: '15px',
@@ -82,7 +83,7 @@ const Services = () => {
                 width: '100%'
             }}>
                 <img src={imageurl} alt='Dashboard' style={{ width: '40%', height: '400px', padding: 10 }} />
-                <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', border: '1px solid GrayText', borderRadius: '14px', padding: 15, alignItems: 'flex-start', width: "30%", marginTop: 10 }}>
+                <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', border: '1px solid black', borderRadius: '14px', padding: 15, alignItems: 'flex-start', width: "30%", marginTop: 20 }}>
                     <Typography style={{
                         fontFamily: 'Poppins, sans-serif', fontSize: '16px',
                         fontWeight: 'bold', padding: 15

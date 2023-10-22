@@ -51,15 +51,15 @@ const Navbar = () => {
         console.log('yess')
         // If the user signed in with Google, display their profile image
         if (image1url != null) {
-            avatarContent = <Avatar alt="Profile" src={image1url} onClick={handleMenuClick} style={{ width: 90, height: 90 }} />;
+            avatarContent = <Avatar alt="Profile" src={image1url} onClick={handleMenuClick} style={{ width: 70, height: 70 }} />;
         }
         else if (image2url != null) {
-            avatarContent = <Avatar alt="Profile" src={image2url} onClick={handleMenuClick} style={{ width: 90, height: 90 }} />;
+            avatarContent = <Avatar alt="Profile" src={image2url} onClick={handleMenuClick} style={{ width: 70, height: 70 }} />;
         }
     } else if (userData && userData.email) {
         // If the user signed in with email, display the first letter of their email as an avatar
         const firstLetter = userData.email.charAt(0).toUpperCase();
-        avatarContent = <Avatar onClick={handleMenuClick} style={{ width: 90, height: 90 }}>{firstLetter}</Avatar>;
+        avatarContent = <Avatar onClick={handleMenuClick} style={{ width: 70, height: 70 }}>{firstLetter}</Avatar>;
     }
     const handleLogout = () => {
         signOut(auth)
