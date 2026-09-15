@@ -1,0 +1,100 @@
+1| [debug] [2023-10-22T03:41:22.361Z] ----------------------------------------------------------------------
+2| [debug] [2023-10-22T03:41:22.363Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\VADER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+3| [debug] [2023-10-22T03:41:22.363Z] CLI Version:   12.5.4
+4| [debug] [2023-10-22T03:41:22.363Z] Platform:      win32
+5| [debug] [2023-10-22T03:41:22.364Z] Node Version:  v18.16.0
+6| [debug] [2023-10-22T03:41:22.364Z] Time:          Sun Oct 22 2023 09:11:22 GMT+0530 (India Standard Time)
+7| [debug] [2023-10-22T03:41:22.364Z] ----------------------------------------------------------------------
+8| [debug] 
+9| [debug] [2023-10-22T03:41:22.371Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://[...]
+10| [debug] [2023-10-22T03:41:22.372Z] > authorizing via signed-in user (chandanmohan50@gmail.com)
+11| [info] 
+12|      ######## #### ########  ######## ########     ###     ######  ########
+13|      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+14|      ######    ##  ########  ######   ########  #########  ######  ######
+15|      ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+16|      ##       #### ##     ## ######## ########  ##     ##  ######  ########
+17| 
+18| You're about to initialize a Firebase project in this directory:
+19| 
+20|   C:\Users\VADER\Desktop\loungeapplication
+21| 
+22| [info] 
+23| === Project Setup
+24| [info] 
+25| [info] First, let's associate this project directory with a Firebase project.
+26| [info] You can create multiple project aliases by running firebase use --add, 
+27| [info] but for now we'll just set up a default project.
+28| [debug] [2023-10-22T03:41:35.967Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+29| [debug] [2023-10-22T03:41:36.892Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+30| [debug] [2023-10-22T03:41:36.892Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+31| [info] i  Using project lounge-application-ac21b (Lounge Application) 
+32| [info] 
+33| === Hosting Setup
+34| [info] 
+35| [info] Your public directory is the folder (relative to your project directory) that
+36| [info] will contain Hosting assets to be uploaded with firebase deploy. If you
+37| [info] have a build process for your assets, use your build's output directory.
+38| [info] 
+39| [debug] [2023-10-22T03:46:17.568Z] ----------------------------------------------------------------------
+40| [debug] [2023-10-22T03:46:17.571Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\VADER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+41| [debug] [2023-10-22T03:46:17.571Z] CLI Version:   12.5.4
+42| [debug] [2023-10-22T03:46:17.571Z] Platform:      win32
+43| [debug] [2023-10-22T03:46:17.572Z] Node Version:  v18.16.0
+44| [debug] [2023-10-22T03:46:17.573Z] Time:          Sun Oct 22 2023 09:16:17 GMT+0530 (India Standard Time)
+45| [debug] [2023-10-22T03:46:17.573Z] ----------------------------------------------------------------------
+46| [debug] 
+47| [debug] [2023-10-22T03:46:17.585Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https:/[...]
+48| [debug] [2023-10-22T03:46:17.585Z] > authorizing via signed-in user (chandanmohan50@gmail.com)
+49| [info] 
+50|      ######## #### ########  ######## ########     ###     ######  ########
+51|      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+52|      ######    ##  ########  ######   ########  #########  ######  ######
+53|      ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+54|      ##       #### ##     ## ######## ########  ##     ##  ######  ########
+55| 
+56| You're about to initialize a Firebase project in this directory:
+57| 
+58|   C:\Users\VADER\Desktop\loungeapplication
+59| 
+60| [info] 
+61| === Project Setup
+62| [info] 
+63| [info] First, let's associate this project directory with a Firebase project.
+64| [info] You can create multiple project aliases by running firebase use --add, 
+65| [info] but for now we'll just set up a default project.
+66| [debug] [2023-10-22T03:46:23.208Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+67| [debug] [2023-10-22T03:46:24.126Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+68| [debug] [2023-10-22T03:46:24.126Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+69| [info] i  Using project lounge-application-ac21b (Lounge Application) 
+70| [info] 
+71| === Hosting Setup
+72| [info] 
+73| [info] Your public directory is the folder (relative to your project directory) that
+74| [info] will contain Hosting assets to be uploaded with firebase deploy. If you
+75| [info] have a build process for your assets, use your build's output directory.
+76| [info] 
+77| [info] +  Wrote build/404.html 
+78| [debug] [2023-10-22T03:46:39.856Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+79| [debug] [2023-10-22T03:46:39.954Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+80| [debug] [2023-10-22T03:46:39.954Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.5.0","browserURL":"https://www.gstatic.com/firebasejs/10.5.0/fir[...]
+81| [info] i  Skipping write of build/index.html 
+82| [info] 
+83| [info] i  Detected a .git folder at C:\Users\VADER\Desktop\loungeapplication 
+84| [info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+85| [info] 
+86| [info] Visit this URL on this device to log in:
+87| [info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=231516631&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+88| [info] 
+89| [info] Waiting for authentication...
+90| [debug] [2023-10-22T03:46:48.131Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+91| [debug] [2023-10-22T03:46:48.131Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+92| [debug] [2023-10-22T03:46:48.509Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+93| [debug] [2023-10-22T03:46:48.509Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"[REDACTED]","token_type":"bearer","scope":"read[...]
+94| [debug] [2023-10-22T03:46:48.517Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+95| [debug] [2023-10-22T03:46:48.911Z] <<< [apiv2][status] GET https://api.github.com/user 200
+96| [debug] [2023-10-22T03:46:48.911Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"dartvader-20","id":63306924,"node_id":"MDQ6VXNlcjYzMzA2OTI0","avatar_url":"https://avatars.githubuser[...]
+97| [info] 
+98| [info] +  Success! Logged into GitHub as dartvader-20 
+99| [info] 
+100| 
